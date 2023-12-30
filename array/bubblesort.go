@@ -1,9 +1,9 @@
-package array
+package main
 
 import "fmt"
 
-// BubbleSortAsc sorts an array using the bubble sort algorithm
-func BubbleSortAsc(arr []int) {
+// BubbleSort sorts an array using the bubble sort algorithm
+func BubbleSort(arr []int) {
 	n := len(arr)
 	for i := 0; i < n-1; i++ {
 		// swapped to check if any swap happened in this pass
@@ -24,6 +24,6 @@ func BubbleSortAsc(arr []int) {
 
 func main() {
 	arr := []int{64, 32, 25, 12, 22, 11, 90}
-	BubbleSortAsc(arr)
+	BubbleSort(arr)
 	fmt.Printf("Sorted array: %v\n", arr)
 }
