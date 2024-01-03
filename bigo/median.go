@@ -1,4 +1,4 @@
-package bigo
+package main
 
 /* The following function accepts an array of strings and returns a new array that only contains the strings that start with the character "a".
 Use Big O Notation to describe the time complexity of the function:
